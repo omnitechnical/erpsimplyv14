@@ -4,5 +4,8 @@
     "grunt-contrib-jshint": "*",
     "grunt-contrib-sass": "~0.4.1",
     "grunt-contrib-watch": "~0.5.1"
+  },
+  "dependencies": {
+    "@odoo/owl": "^1.0.11"
   }
 }

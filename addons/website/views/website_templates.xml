@@ -192,7 +192,7 @@
         <t t-else="">$0</t>
     </xpath>
 </template>
-
+<!--
 <template id="brand_promotion" inherit_id="web.brand_promotion" name="Brand Promotion">
     <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace">
         <t t-call="web.brand_promotion_message">
@@ -203,6 +203,7 @@
         </t>
     </xpath>
 </template>
+-->
 
 <!-- Navbar -->
 <template id="navbar_toggler" name="Navbar Toggler">

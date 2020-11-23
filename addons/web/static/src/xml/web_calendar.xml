@@ -121,6 +121,10 @@
         <div class="form-group">
             <label for='name' class='col-form-label o_form_label'>Summary:</label>
             <input type='text' name='name' class="o_input o_required_modifier" t-att-value="widget.dataTemplate.name or None"/>
+            <!--
+            <label for='location' class='col-form-label o_form_label'>Location:</label>
+            <input type='text' name='location' class="o_input o_required_modifier" t-att-value="widget.dataTemplate.location or None"/>-->
+
         </div>
     </main>
 

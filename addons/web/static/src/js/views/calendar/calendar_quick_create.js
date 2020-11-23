@@ -34,6 +34,8 @@ var QuickCreate = Dialog.extend({
         this.options = options;
 
         // Can hold data pre-set from where you clicked on agenda
+        console.log('2222');
+        console.log(dataTemplate);
         this.dataTemplate = dataTemplate || {};
         this.dataCalendar = dataCalendar;
 
@@ -83,6 +85,8 @@ var QuickCreate = Dialog.extend({
             this.do_warn(_t("Invalid fields:"), warnings);
         }
         dataCalendar.title = val;
+        console.log('dsadasdasdsad');
+        console.log(val);
         return (val)? this.trigger_up('quickCreate', {data: dataCalendar, options: this.options}) : false;
     },
 

@@ -280,11 +280,13 @@ var CalendarController = AbstractController.extend({
      * @param {OdooEvent} event
      */
     _onOpenCreate: function (event) {
+        console.log(1111);
         var self = this;
         if (["year", "month"].includes(this.model.get().scale)) {
             event.data.allDay = true;
         }
         var data = this.model.calendarEventToRecord(event.data);
+        console.log(data);
 
         var context = _.extend({}, this.context, event.options && event.options.context);
         // context default has more priority in default_get so if data.name is false then it may
