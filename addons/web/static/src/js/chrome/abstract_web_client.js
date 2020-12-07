@@ -101,7 +101,7 @@ var AbstractWebClient = Widget.extend(KeyboardNavigationMixin, {
         this._current_state = null;
         this.menu_dp = new concurrency.DropPrevious();
         this.action_mutex = new concurrency.Mutex();
-        this.set('title_part', {"zopenerp": "Odoo"});
+        this.set('title_part', {"zopenerp": "PMSimply"});
         this.env = env;
         this.env.bus.on('set_title_part', this, this._onSetTitlePart);
     },
@@ -259,6 +259,7 @@ var AbstractWebClient = Widget.extend(KeyboardNavigationMixin, {
     set_title_part: function (part, title) {
         var tmp = _.clone(this.get("title_part"));
         tmp[part] = title;
+        console.log(tmp);
         this.set("title_part", tmp);
     },
     _title_changed: function () {
@@ -501,6 +502,8 @@ var AbstractWebClient = Widget.extend(KeyboardNavigationMixin, {
      * @param {string} [payload.title]
      */
     _onSetTitlePart: function (payload) {
+        console.log('dadsadas');
+        console.log(title);
         var part = payload.part;
         var title = payload.title;
         this.set_title_part(part, title);
