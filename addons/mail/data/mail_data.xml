@@ -3,8 +3,8 @@
     <data noupdate="1">
 
         <record id="base.partner_root" model="res.partner">
-            <field name="name">OdooBot</field>
-            <field name="email">odoobot@example.com</field>
+            <field name="name">PMSimply</field>
+            <field name="email">pmsimply@example.com</field>
             <field name="image_1920" type="base64" file="mail/static/src/img/odoobot.png"/>
         </record>
 
@@ -104,7 +104,7 @@
     <span t-if="not website_url" t-esc="company.name"/>
     </span>
     using
-    <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="text-decoration:none; color: #875A7B;">Odoo</a>.
+    <a target="_blank" href="https://www.omnitechnical.com/#contact1" style="text-decoration:none; color: #875A7B;">PMsimply</a>.
 </p>
 </div>
         </template>
@@ -159,7 +159,7 @@
     </tr>
     <tr>
         <td align="center" style="padding: 8px; font-size:11px;">
-            Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email">Odoo</a>.
+            Powered by <a target="_blank" href="https://www.omnitechnical.com/#contact1">PMSimply</a>.
         </td>
     </tr>
 </tbody>
@@ -218,7 +218,7 @@
 </td></tr>
 <!-- POWERED BY -->
 <tr><td align="center" style="min-width: 590px;">
-        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Odoo</a>
+        Powered by <a target="_blank" href="https://www.omnitechnical.com/#contact1" style="color: #875A7B;">PMSimply</a>
 </td></tr>
 </table>
         </template>
@@ -303,7 +303,7 @@
 </td></tr>
 <!-- POWERED BY -->
 <tr><td align="center" style="min-width: 590px; padding: 8px; font-size:11px;">
-    Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Odoo</a>
+    Powered by <a target="_blank" href="https://www.omnitechnical.com/#contact1" style="color: #875A7B;">PMSimply</a>
 </td></tr>
 </table>
         </template>
